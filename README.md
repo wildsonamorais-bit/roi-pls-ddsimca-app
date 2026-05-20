@@ -1,2 +1,16 @@
-# roi-pls-ddsimca-app
-App para análise de imagens com ROI, RGB, HSV, PLS e DD-SIMCA
+# ROI RGB/HSV/Gray + PLS + DD-SIMCA
+
+App web para:
+
+- seleção de ROI;
+- cálculo RGB;
+- HSV;
+- grayscale;
+- PLS;
+- DD-SIMCA.
+
+## Rodar localmente
+
+```bash
+pip install -r requirements.txt
+streamlit run app.py
